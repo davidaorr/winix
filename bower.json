@@ -8,5 +8,16 @@
     "jquery-validation-unobtrusive": "3.2.6",
     "Microsoft.EntityFrameworkCore": "1.0.1",
     "Microsoft.EntityFrameworkCore.SqlServer": "1.0.1"
-    }
+  },
+  "homepage": "https://github.com/davidaorr/winix",
+  "description": "",
+  "main": "Program.cs",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

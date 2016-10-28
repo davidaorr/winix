@@ -8,10 +8,10 @@ using WebApplication.Models;
 namespace WebApplication.Data
 {    public class WinixDbContext : DbContext
     {
-        public DbSet<Winix> Winix { get; set; }
+        public DbSet<Record> Record { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=192.169.179.186,1433;Network Library=DBMSSOCN;Initial Catalog=Winix;User ID=remoteAdmin;Password=allTh3Th1ng$;");
+            optionsBuilder.UseSqlServer(@"Server=192.169.179.186;Initial Catalog=Winix;User ID=remoteAdmin;Password=allTh3Th1ng$;");
         }
     }
 }

@@ -1,2 +1,3 @@
 publish/
 .vscode
+project.lock.json

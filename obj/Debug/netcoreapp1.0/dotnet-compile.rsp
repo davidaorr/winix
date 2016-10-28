@@ -1,5 +1,5 @@
---temp-output:C:\code\dotnetsite\obj\Debug\netcoreapp1.0\
---out:C:\code\dotnetsite\bin\Debug\netcoreapp1.0\dotnetsite.dll
+--temp-output:C:\code\winix\obj\Debug\netcoreapp1.0\
+--out:C:\code\winix\bin\Debug\netcoreapp1.0\winix.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -9,7 +9,7 @@
 --optimize:False
 --debug-type:portable
 --emit-entry-point:True
---output-name:dotnetsite
+--output-name:winix
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -220,9 +220,10 @@
 --reference:C:\Users\david\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\david\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\david\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\code\dotnetsite\obj\Debug\netcoreapp1.0\dotnetsitedotnet-compile.deps.json",dotnetsite.deps.json
-C:\code\dotnetsite\Program.cs
-C:\code\dotnetsite\Startup.cs
-C:\code\dotnetsite\Controllers\HomeController.cs
-C:\code\dotnetsite\Data\WinixDbContext.cs
-C:\code\dotnetsite\Models\Winix.cs
+--resource:"C:\code\winix\obj\Debug\netcoreapp1.0\winixdotnet-compile.deps.json",winix.deps.json
+C:\code\winix\Program.cs
+C:\code\winix\Startup.cs
+C:\code\winix\Controllers\HomeController.cs
+C:\code\winix\Data\WinixDbContext.cs
+C:\code\winix\Models\Record.cs
+C:\code\winix\Models\Winix.cs
